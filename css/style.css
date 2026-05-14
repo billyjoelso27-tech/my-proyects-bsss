@@ -1,0 +1,23 @@
+body {
+    background: #889063;
+}
+.contenedor {
+    display: flex;
+    justify-content: center; /* center = centro, flex-end = derecha, flex-start = izquierda */
+}
+.foto-pequena {
+    border-radius: 15px;
+    box-shadow: left 56px 5px 10px black;
+}
+.fa-heart {
+    color: red;
+    font-size: 50px;
+}
+.fa-sun {
+    color: yellow;
+    font-size: 50px;
+}
+.fa-anchor {
+    color: black;
+    font-size: 50px;
+}
