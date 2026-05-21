@@ -31,7 +31,7 @@ main {
     min-height: 100vh;
     gap: 40px;
 }
-.about-me-container {
+.my-photos-container {
     background: #fff;     
     padding: 20px;
     border-radius: 15px;
@@ -68,7 +68,7 @@ main {
   .p3 { background-image: url('../img/Poppins-2.jpg'); }
 
  /* el hover para que se mueva el carrusel */
-  .about-me-container:hover .film-strip {
+  .my-photos-container:hover .film-strip {
     transform: translateX(-66.66%);
   }
 
@@ -135,3 +135,24 @@ foter a {
     font-family: prata, serif;  
 
 }
+
+/*cajas para la info de about me */
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    font-size: 40pt;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+
+
