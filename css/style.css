@@ -139,7 +139,7 @@ foter a {
 /*cajas para la info de about me */
 .box {
     height: 200px;
-    width: 200px;
+    width: 300px;
     background-color: #ffffff;
     border-radius: 10px;
     display: flex;
